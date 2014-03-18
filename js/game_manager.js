@@ -164,7 +164,7 @@ GameManager.prototype.move = function (direction) {
   if (moved) {
     this.addRandomTile();
 
-    if (Math.random() < 0.8) {
+    if (Math.random() < 0.7) {
       this.addRandomTile();
     }
 

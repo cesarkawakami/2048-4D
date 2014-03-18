@@ -35,7 +35,9 @@ KeyboardInputManager.prototype.listen = function () {
     87: 4, // W
     68: 5, // D
     83: 6, // S
-    65: 7  // A
+    65: 7, // A
+    81: 8, // Q
+    69: 9  // E
   };
 
   document.addEventListener("keydown", function (event) {
